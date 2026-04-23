@@ -20,7 +20,7 @@ public class App{
         // A.sleep();
         
         //Parameterized Ctor
-        Student A = new Student(2, 13, "Tapu", 3);
+        Student A = new Student(2, 13, "Tapu", 3, "Sonu");
         
         // System.out.println(A.id);
         // System.out.println(A.age);
@@ -38,11 +38,17 @@ public class App{
         Student B = new Student(A);
         
         System.out.println(B.id);
-        System.out.println(B.age);
-        System.out.println(B.name);
+        System.out.println(B.getAge());
+        System.out.println(B.getName());
         System.out.println(B.no_s);
+        //gf is private, so it is not accessible
+        // System.out.println(B.gf);
+        B.setAge(20);
+        System.out.println(B.getAge());
         
         B.sleep();
         B.study();
+        //gfChatting() method is private, so it is not accessible
+        // B.gfChatting();
 	}
 }
