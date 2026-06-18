@@ -350,7 +350,6 @@ public class BinarySearch {
         return -1;
     }
 
-
     public static void main(String[] args) {
 
         int nums[] = { 1, 4, 7, 9, 11, 15 };
