@@ -358,7 +358,7 @@ public class Practice_1 {
 		System.out.println();
 
 		int list[] = {4, 1, 2, 1, 2};
-		// 		System.out.println("Single Element in an array: " +singleNumber(list));
+		// System.out.println("Single Element in an array: " +singleNumber(list));
 		// System.out.println("Single Element in an array using map: " +singleNumberBetter(list));
 		System.out.println("Single Element in an array using xor: " + singleNumberOptimized(list));
 
@@ -369,5 +369,3 @@ public class Practice_1 {
         System.out.println("Length of longest consecutive sequence using Optimal Approach: " + longestConsecutiveSequenceOptimized(Arr));
 	}
 }
-
-
